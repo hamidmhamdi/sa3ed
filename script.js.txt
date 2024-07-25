@@ -1,0 +1,4 @@
+document.getElementById('donateButton').addEventListener('click', function() {
+    var heart = document.getElementById('heart');
+    heart.classList.toggle('animate');
+});
